@@ -75,14 +75,30 @@ img {
 /* start exercise */
 /* < 420px  */
 @media screen and (max-width: 419px) {
-  .row {
+  
+  body {
+    font-size: 1.25rem;
+  } 
+  img {
+    height: auto;
+    width: 250px;
     max-width: 100%;
+
+  }
+  
+  .row {
+    width: 100%;
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+  .row > div {
+    padding-bottom: 30px;
   }
 
   .row > .left,
   .row > .central,
   .row > .right {
-    min-width: 100%;
+    width: 100% !important;
   }
   
 }
