@@ -76,23 +76,26 @@ img {
 /* < 420px  */
 @media screen and (max-width: 419px) {
   
+  /* GENERAL */
   body {
     font-size: 1.25rem;
   } 
+
   img {
     height: auto;
-    width: 250px;
+    width: 200px;
     max-width: 100%;
 
   }
-  
+
+  /* MAIN CONTENT  */
   .row {
     width: 100%;
     margin-top: 0;
     padding-bottom: 20px;
   }
   .row > div {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
   }
 
   .row > .left,
@@ -100,5 +103,22 @@ img {
   .row > .right {
     width: 100% !important;
   }
-  
+
+  /* width img with blue background = width img */
+  #why .row img {
+    width: calc(200px - 60px);
+  }
+
+  #why h1 {
+    margin: 0;
+  }
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    margin-top: 40px;
+  }
+
+  #why hr {
+    width: 50%;
+  }
 }
