@@ -97,11 +97,17 @@ img {
   .row > div {
     padding-bottom: 40px;
   }
-
-  .row > .left,
-  .row > .central,
-  .row > .right {
-    width: 100% !important;
+  
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right,
+  #lezioni .row > .left,
+  #lezioni .row > .central,
+  #lezioni .row > .right,
+  #why .row > .left,
+  #why .row > .central,
+  #why .row > .right {
+    width: 100% ;
   }
 
   /* width img with blue background = width img */
